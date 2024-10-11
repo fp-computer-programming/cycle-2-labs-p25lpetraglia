@@ -1,5 +1,5 @@
 # author labs 4-5
-# Create a Python file named lab_4-5.py
+
 
 
 def count_letter():
