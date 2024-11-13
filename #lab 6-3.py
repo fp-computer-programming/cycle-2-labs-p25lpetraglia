@@ -1,16 +1,23 @@
 #lab 6-3
 #lp
 
-my_arr = [1, 2, 3, 4, 5]
+colors = ["red", "blue", "green", "yellow"]
 
 
-print(my_arr[2])  
+colors.extend(["purple", "orange", "pink"])
 
 
-print(len(my_arr))
+colors.append("brown")
 
 
-print(my_arr * 3)
+colors.insert(3, "white")
 
 
-print(list("string"))
+colors_copy = colors.copy()
+
+
+colors_copy.remove("green")
+
+
+print("Original colors list:", colors)
+print("Copy of colors list after removal:", colors_copy)
